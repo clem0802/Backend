@@ -11,6 +11,7 @@ __________ Request  __________
 |________| <======= |________|
  (CLIENT)   (HTTP)   (SERVER)
 
+
 -when the server successfully retrieves the data, it sends it back to the web browser in the response and includes a "STATUS CODE"
 -  HTTP/1.1 200 OK
 -when making a request, the "HTTP method = GET", this additional information, is sent by a browser
