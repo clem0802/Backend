@@ -12,4 +12,4 @@
 -it should return "10 results"
 
 -what do we generally call the combination of using a database and code on the server?
-  -BACKEND or SERVER-SIDE CODING
+-BACKEND or SERVER-SIDE CODING
