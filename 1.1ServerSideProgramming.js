@@ -7,7 +7,7 @@
 // TAILORED EXPERIENCE = dynamic experience
 // server-side code creates LOGIN pages with USERNAME and PASSWORD
 // opening a social network and showing a list of a user's friends
-// => this situation requires a TAILORED EXPERIENCE
+// => this situation requires a "TAILORED EXPERIENCE" for a user
 // creating TAILORED EXPERIENCES, like showing a user's msgs after logging in
 // => this is a KEY SKILL in modern full-stack web development
 
