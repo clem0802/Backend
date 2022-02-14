@@ -4,6 +4,8 @@
 -when we click on a link in the web browser => <a href="https://abc.com">Watch the news</a>
 -a GET request means that the browser wants to retrieve specific data from the server specified in the URL
 -what type of data might the web browser want to retrieve from a server? => a "user's address"
+-"Web Browsers", also = "Clients", send a request to the server for a particular resource
+-The server then responds with the resource.
            
 __________ Request  __________
 |        | =======> |        |
