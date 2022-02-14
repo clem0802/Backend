@@ -4,7 +4,7 @@
 -dynamic websites generate some of their content dynamically
 -by requesting data from the server and displaying the response
 -to make the website dynamic, we could use each product's "DIV" as a template
--filling it with th eproduct data we request from the BACKEND
+-filling it with the product data we request from the BACKEND
 
 -dynamic websites can return "DIFFERENT CONTENT" for a request 
 -based on information in the URL or other information stored in the browser
