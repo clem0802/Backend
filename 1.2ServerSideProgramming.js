@@ -14,7 +14,9 @@ __________ Request  __________
  (CLIENT)   (HTTP)   (SERVER)
 
 
--when the server successfully retrieves the data, it sends it back to the web browser in the response and includes a "STATUS CODE"
+-when the server successfully retrieves the data, 
+ it sends it back to the web browser in the response and includes a "STATUS CODE"
+-the browsers use the PROTOCOL "HTTP" to request user-specific data from a server
 -  HTTP/1.1 200 OK
 -when making a request, the "HTTP method = GET", this additional information, is sent by a browser
 -when the browser sends a get "GET" request, we retrieve data from the "SERVER's DATABASE"
