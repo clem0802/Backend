@@ -26,7 +26,7 @@ The "status line" (compositions):
     protocol       status code
 
     
-/*-----------------------------------*/ (GET request went wrong)
+/*-----------------------------------*/ (GET "Client Errors") / 400-499
 Error codes in the range of 400-499 are generally called "client errors".
 => HTTP/1.1 400 Bad Request
 => HTTP/1.1 401 Unauthorized
@@ -34,14 +34,15 @@ Error codes in the range of 400-499 are generally called "client errors".
 => HTTP/1.1 408 Request Timeout
 
 
-/*-----------------------------------*/ (GET server errors)
+/*-----------------------------------*/ (GET "Server Errors") / 500-599
 Codes in the range of 500-599 are server errors
 => HTTP/1.1 500 Internal Server Error 
 => HTTP/1.1 501 Not Implemented
 
 
 /*-----------------------------------*/ (JSON = JavaScript Object Notation) J-S-O-N
-                                                ^   ^      ^      ^
+                                                ^   ^      ^      ^         |_____|
+The body of HTTP response, formatted as JSON.
 One common format for an HTTP "response body" is JSON.
 Inside the JSON object, the properties are separated by a comma (,)
 
