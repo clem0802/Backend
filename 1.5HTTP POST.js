@@ -17,9 +17,9 @@ This POST request's URL tells us that this new piece of data should be saved und
 
 /*------------------------------*/ (POST)
 -Unlike GET, POST requests rarely use query parameters in their URL, 
- and instead rely on the request body to hold the data.
+ and instead rely on the "request body" to hold the data.
 -Unlike GET requests that have an empty body, 
- POST requests contain data in their request body.
+ POST requests contain "DATA" in their "request body".
 
 POST https://mimo.com/users
 {
@@ -29,7 +29,7 @@ POST https://mimo.com/users
 
 
 /*------------------------------*/ (POST)
--A POST request has headers providing extra context, 
+-A "POST request" has headers providing extra context, 
  like Content-Type which tells us the format of the request body.
 -We can see that this POST request's body Content-Type is "application/json".
 -POST requests sotre "in the REQUEST BODY" the data they send to the server.
