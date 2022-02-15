@@ -1,4 +1,8 @@
 /*------------------------------*/ (POST)
+/*------------------------------*/
+HTTP/1.1 201 Created
+
+/*------------------------------*/
 POST is another common method, which helps us create something new on the backend. 
 POST is a request method that we use to send new data to the server.
 For example, adding a new user to the database.
