@@ -32,7 +32,7 @@ format: https://mimo.com/users/:id
 
 
 /*------------------------------*/ (GET)
-The request line URL can also have "query parameters". 
+The request line URL can also have "QUERY PARAMETERS". 
 These are key-value pairs that appear after a ? sign.
 "?" marks the start of a URL's "query parameters part".
 => GET https://mimo.com/users?membership=premium HTTP/1.1
@@ -41,14 +41,16 @@ These are key-value pairs that appear after a ? sign.
                               ^^^^^^   ^^^^^ 
                            (2 query parameters)
 
-URLs can have several query parameters chained through &
+URLs can have several query parameters, chained through &
 => GET https://mimo.com/users?membership=premium&activestreak=true HTTP/1.1
                                                 ^
-                                                  
+GET https://museums.com/museums?country=Spain&free=true HTTP/1.1
+                                             ^                 
 using "query parameters":
 GET https://mimo.com/users?id=1033 HTTP/1.1
                           ^^^^^^^^
-
+GET https://museums.com/museums?country=Spain HTTP/1.1
+                               ^^^^^^^^^^^^^^
 using "simple parameters":
 GET https://mimo.com/users/1033 HTTP/1.1
                           ^^^^^
@@ -57,8 +59,10 @@ GET https://mimo.com/users/1033 HTTP/1.1
 -1) Under the request line, a browser request has a series of headers, for example, Host.
 -2) "Headers" are standard information fields in a request, 
     that the server uses to better decide how to deal with the request.
+    In the request's "Headers" are found information about how the response to the request should look like
+           ^^^^^^^^^^^^^^^^^^^
 -3) For example, the "Cookie" header might attach a session cookie to the request.
--4) "Session cookies" allow consistent and user-specific experience 
+-4) "Session Cookies" allow consistent and user-specific experience 
     for different users accessing your webpage at the same time.
 -5) As another example, "Accept" headers give servers information about 
     the type, language, and format of the response data they should send.
