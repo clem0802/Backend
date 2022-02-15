@@ -4,6 +4,7 @@ as well as a "response body" containing the actual data.
 
 
 HTTP/1.1 200 OK     => status line = protocol (HTTP/1.1) + status code (200 OK)
+                                     |_________________|   |__________________|
 Date: Mon, 27 Jul 2009 12:28:53 GMT
 Server: Apache/2.2.14 (Win32)
 Last-Modified: Wed, 22 Jul 2009 19:15:56 GMT
